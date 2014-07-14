@@ -2,7 +2,7 @@
 /*
  * Plugin Name: Portal Customization - Inóbrega
  * Plugin URI: http://www.inobrega.com.br
- * Description: Um plugin básico para gerenciamento de Post-Types, Taxonomias, Bootstrap, Awesome Fonts, Bootstrap Nav-bar, Custom Wysiwyg, dentro outros futuros.
+ * Description: A plugin designed for those who have a need to use in your portal-Custom Post Types, taxonomies, Bootstrap and Font-Awesome libraries.
  * Version: 1.0
  * Author: Ilson Nóbrega
  * Author URI: http://www.inobrega.com.br
@@ -33,7 +33,7 @@
         importFile('lib', 'post-type.php');
 
     /*
-     * 
+     * Initial settings of the plugin
      */
         //Defines the version of plugin
         define('version', '1.0');

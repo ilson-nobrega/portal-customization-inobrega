@@ -1,4 +1,4 @@
-Plugin do Wordpress para Gerenciamento Completo de Conteúdo
+Portal Customization
 ===============
 
-Um plugin básico para gerenciamento de Post-Types, Taxonomias, Bootstrap, Awesome Fonts, Bootstrap Nav-bar, Custom Wysiwyg, dentro outros futuros.
+A plugin designed for those who have a need to use in your portal-Custom Post Types, taxonomies, Bootstrap and Font-Awesome libraries.
