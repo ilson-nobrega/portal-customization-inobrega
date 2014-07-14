@@ -27,19 +27,19 @@
  */
 
     /*
-     * Import all plugins libraries
-     */
-        //Custom Post-Types Configurations
-        importFile('lib', 'post-type.php');
-
-    /*
      * Initial settings of the plugin
      */
         //Defines the version of plugin
         define('version', '1.0');
         
         //Defines the version of WordPress
-        define('wp_version', getbloginfo('version'));
+        define('wp_version', get_bloginfo('version'));
+
+    /*
+     * Import all plugins libraries
+     */
+        //Custom Post-Types Configurations
+        importFile('lib', 'post-type.php');
         
 
     /*
@@ -53,7 +53,7 @@
                 return false;
             }else{
                 
-                return include (plugin_wp_dir_path(__FILE__).'/'.$path.'/'.$file');
+                return include plugin_dir_path(__FILE__).'/'.$path.'/'.$file;
             }
         }
 
