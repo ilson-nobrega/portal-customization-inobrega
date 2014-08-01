@@ -7,7 +7,7 @@
         function post_type_menu() {
             
             //Create a menu
-            add_menu_page('Custom Post-Types', 'Portal Customization', 'manage_options', 'post_type_main_menu', 'post_type_config');
+            add_menu_page('Custom Post-Types', 'Portal Customization', 'manage_options', 'post-type', 'post_type_config');
         
             //Create submenu items
             add_submenu_page('post_type_main_menu', 'Gerenciar Post-Type', 'Gerenciar Post-Type', 'manage_options', 'gerenciar_post_type', 'gerenciar_post_type');
